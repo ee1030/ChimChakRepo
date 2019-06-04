@@ -1,0 +1,10 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+// 상수형 참조라는 말을 처음들어보는데 만약 r-value 참조를 말하는거라면 && 연산자 쓰는거랑 임시 저장된 값을 참조한다는 것이 다른점이다.
+int main()
+{
+	
+	return 0;
+}
