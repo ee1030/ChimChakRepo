@@ -1,0 +1,21 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+void Swap(int &a, int &b) // 참조 형식(&a, &b)을 매개 변수로 받아 두 수를 바꾸는 함수 
+{
+	int Tmp = a;
+	a = b;
+	b = Tmp;
+}
+
+int main()
+{
+	int x = 10, y = 20;
+
+	Swap(x, y);
+
+	cout << "x값 : " << x << ' ' << "y값 : " << y << endl; // 결과값을 출력 x와 y 두수가 바뀌어 출력된다.
+
+	return 0;
+}
